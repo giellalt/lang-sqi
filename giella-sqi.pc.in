@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+datadir=@datarootdir@
+gtlang=sqi
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-sqi
+Description: Finite-state language processing tools for Albanian
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
