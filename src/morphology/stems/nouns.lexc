@@ -1,0 +1,10 @@
+!! Nouns
+!! -----
+!! Nouns in UNDEFINED language are things.
+
+LEXICON Nouns
+mal mi "mountain"  ; !masc pl i
+zog mu "bird" ; !masc pl u
+vajzë f "girl" ; !fem
+
+! vim: set ft=xfst-lexc:

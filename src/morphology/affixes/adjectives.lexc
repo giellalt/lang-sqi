@@ -1,0 +1,11 @@
+!! Adjective inflection
+!! --------------------
+!! The UNDEFINED language adjectives compare.
+
+LEXICON Comparisons
++A+pos:0        #   ;
++A+cmp:er       #   ;
++A+sup:est      #   ;
+
+! vim: set ft=xfst-lexc:
+

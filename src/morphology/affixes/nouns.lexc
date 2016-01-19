@@ -1,0 +1,25 @@
+!! Noun inflection
+!! ---------------
+!! The UNDEFINED language nouns inflect in cases.
+
+LEXICON mi
++N+Msc+Sg+Indef: # ;
++N+Msc+Sg+Def:%>i # ;
++N+Msc+Pl+Indef:%>e # ;
++N+Msc+Pl+Def:%>et # ;
+
+LEXICON mu
++N+Msc+Sg+Indef: # ;
++N+Msc+Sg+Def:%>u # ;
++N+Msc+Pl+Indef:%>j # ;
++N+Msc+Pl+Def:%>jtë # ;
+
+LEXICON f
++N+Fem+Sg+Indef: # ;
++N+Fem+Sg+Def:%>a # ;
++N+Fem+Pl+Indef:%>a # ;
++N+Fem+Pl+Def:%>at # ;
+
+
+! vim: set ft=xfst-lexc:
+
