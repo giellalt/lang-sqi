@@ -1,0 +1,22 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - vajzë: # f
+    vajzë+N+Fem+Sg+Indef: vajzë
+    vajzë+N+Fem+Sg+Def: vajza
+    vajzë+N+Fem+Pl+Indef: vajza
+    vajzë+N+Fem+Pl+Def: vajzat
+
+  Noun - mal: # mi
+    mal+N+Msc+Sg+Indef: mal
+    mal+N+Msc+Sg+Def: mali
+    mal+N+Msc+Pl+Indef: male
+    mal+N+Msc+Pl+Def: malet
+
