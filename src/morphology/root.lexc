@@ -33,16 +33,22 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
 
++Indef 
++Def
+
++Msc
++Fem
++Neu
+
 !! The Usage extents are marked using following tags:
  +Err/Orth   
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
 
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+
+
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
