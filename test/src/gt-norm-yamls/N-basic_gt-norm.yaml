@@ -10,7 +10,7 @@ Config:
 Tests:
   Noun - vajzë: # f
     vajzë+N+Fem+Sg+Indef: vajzë
-    vajzë+N+Fem+Sg+Def: vajza
+    vajzë+N+Fem+Sg+Def: vajz
     vajzë+N+Fem+Pl+Indef: vajza
     vajzë+N+Fem+Pl+Def: vajzat
 
