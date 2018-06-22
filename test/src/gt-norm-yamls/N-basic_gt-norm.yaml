@@ -15,8 +15,24 @@ Tests:
     vajzë+N+Fem+Pl+Def: vajzat
 
   Noun - mal: # mi
-    mal+N+Msc+Sg+Indef: mal
-    mal+N+Msc+Sg+Def: mali
-    mal+N+Msc+Pl+Indef: male
-    mal+N+Msc+Pl+Def: malet
+    mal+N+Msc+Sg+Nom+Indef: mal
+    mal+N+Msc+Sg+Nom+Def: mali
+    mal+N+Msc+Sg+Acc+Indef: mal
+    mal+N+Msc+Sg+Acc+Def: mali
+    mal+N+Msc+Sg+Abl+Indef: malit
+    mal+N+Msc+Sg+Abl+Def: malit
+    mal+N+Msc+Sg+Gen+Indef: malit
+    mal+N+Msc+Sg+Gen+Def: malit
+    mal+N+Msc+Sg+Dat+Indef: malit
+    mal+N+Msc+Sg+Dat+Def: malit
 
+    mal+N+Msc+Pl+Nom+Indef: male
+    mal+N+Msc+Pl+Nom+Def: malet
+    mal+N+Msc+Pl+Acc+Indef: male
+    mal+N+Msc+Pl+Acc+Def: malet
+    mal+N+Msc+Pl+Abl+Indef: maleve
+    mal+N+Msc+Pl+Abl+Def: maleve
+    mal+N+Msc+Pl+Gen+Indef: maleve
+    mal+N+Msc+Pl+Gen+Def: maleve
+    mal+N+Msc+Pl+Dat+Indef: malevet
+    mal+N+Msc+Pl+Dat+Def: malevet
