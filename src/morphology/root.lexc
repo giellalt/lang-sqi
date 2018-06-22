@@ -155,4 +155,7 @@ LEXICON Root
 0   Numerals    ;
 0   Prefixes    ;
 
+LEXICON EndLex
+#;
+
 ! vim: set ft=xfst-lexc:

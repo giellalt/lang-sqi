@@ -1,42 +1,42 @@
 !! Noun inflection
 !  ---------------
-!! The UNDEFINED language nouns inflect in cases.
+!! The ALBANIAN language nouns inflect in number, case and definiteness.
 
 LEXICON mi
-+N+Msc+Sg+Nom+Indef: # ;
-+N+Msc+Sg+Nom+Def:%>i # ;
-+N+Msc+Sg+Acc+Indef: # ;
-+N+Msc+Sg+Acc+Def:%>i # ;
-+N+Msc+Sg+Abl+Indef:%>it # ;
-+N+Msc+Sg+Abl+Def:%>it # ;
-+N+Msc+Sg+Gen+Indef:%>it # ;
-+N+Msc+Sg+Gen+Def:%>it # ;
-+N+Msc+Sg+Dat+Indef:%>it # ;
-+N+Msc+Sg+Dat+Def:%>it # ;
++N+Msc+Sg+Nom+Indef: EndLex ;
++N+Msc+Sg+Nom+Def:%>i EndLex ;
++N+Msc+Sg+Acc+Indef: EndLex ;
++N+Msc+Sg+Acc+Def:%>i EndLex ;
++N+Msc+Sg+Abl+Indef:%>it EndLex ;
++N+Msc+Sg+Abl+Def:%>it EndLex ;
++N+Msc+Sg+Gen+Indef:%>it EndLex ;
++N+Msc+Sg+Gen+Def:%>it EndLex ;
++N+Msc+Sg+Dat+Indef:%>it EndLex ;
++N+Msc+Sg+Dat+Def:%>it EndLex ;
 
-+N+Msc+Pl+Nom+Indef:%>e # ;
-+N+Msc+Pl+Nom+Def:%>et # ;
-+N+Msc+Pl+Acc+Indef:%>e # ;
-+N+Msc+Pl+Acc+Def:%>et # ;
-+N+Msc+Pl+Abl+Indef:%>eve # ;
-+N+Msc+Pl+Abl+Def:%>eve # ;
-+N+Msc+Pl+Gen+Indef:%>eve # ;
-+N+Msc+Pl+Gen+Def:%>eve # ;
-+N+Msc+Pl+Dat+Indef:%>evet # ;
-+N+Msc+Pl+Dat+Def:%>evet # ;
++N+Msc+Pl+Nom+Indef:%>e EndLex ;
++N+Msc+Pl+Nom+Def:%>et EndLex ;
++N+Msc+Pl+Acc+Indef:%>e EndLex ;
++N+Msc+Pl+Acc+Def:%>et EndLex ;
++N+Msc+Pl+Abl+Indef:%>eve EndLex ;
++N+Msc+Pl+Abl+Def:%>eve EndLex ;
++N+Msc+Pl+Gen+Indef:%>eve EndLex ;
++N+Msc+Pl+Gen+Def:%>eve EndLex ;
++N+Msc+Pl+Dat+Indef:%>evet EndLex ;
++N+Msc+Pl+Dat+Def:%>evet EndLex ;
 
 
 LEXICON mu
-+N+Msc+Sg+Nom+Indef: # ;
-+N+Msc+Sg+Nom+Def:%>u # ;
-+N+Msc+Pl+Nom+Indef:%>j # ;
-+N+Msc+Pl+Nom+Def:%>jtë # ;
++N+Msc+Sg+Nom+Indef: EndLex ;
++N+Msc+Sg+Nom+Def:%>u EndLex ;
++N+Msc+Pl+Nom+Indef:%>j EndLex ;
++N+Msc+Pl+Nom+Def:%>jtë EndLex ;
 
 LEXICON f
-+N+Fem+Sg+Nom+Indef: # ;
-+N+Fem+Sg+Nom+Def:%>a # ;
-+N+Fem+Pl+Nom+Indef:%>a # ;
-+N+Fem+Pl0Nom+Def:%>at # ;
++N+Fem+Sg+Nom+Indef: EndLex ;
++N+Fem+Sg+Nom+Def:%>a EndLex ;
++N+Fem+Pl+Nom+Indef:%>a EndLex ;
++N+Fem+Pl+Nom+Def:%>at EndLex ;
 
 
 ! vim: set ft=xfst-lexc:
