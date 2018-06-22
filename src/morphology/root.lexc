@@ -47,6 +47,12 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
 
++Abl
++Acc
++Dat
++Gen
++Nom
+
 
 
 !! The comparative forms are:
