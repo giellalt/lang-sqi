@@ -14,25 +14,48 @@ Tests:
     vajzë+N+Fem+Pl+Indef: vajza
     vajzë+N+Fem+Pl+Def: vajzat
 
+    vajzë+N+Fem+Sg+Acc+Indef: vajzë
+    vajzë+N+Fem+Sg+Abl+Indef: vajze
+    vajzë+N+Fem+Sg+Dat+Indef: vajze
+    vajzë+N+Fem+Sg+Gen+Indef: vajze
+
+    vajzë+N+Fem+Sg+Nom+Def: vajza
+    vajzë+N+Fem+Sg+Acc+Def: vajzën
+    vajzë+N+Fem+Sg+Abl+Def: vajzës
+    vajzë+N+Fem+Sg+Dat+Def: vajzës
+    vajzë+N+Fem+Sg+Gen+Def: vajzës
+
+    vajzë+N+Fem+Pl+Nom+Indef: vajza
+    vajzë+N+Fem+Pl+Acc+Indef: vajza
+    vajzë+N+Fem+Pl+Abl+Indef: vajzash
+    vajzë+N+Fem+Pl+Dat+Indef: vajzave
+    vajzë+N+Fem+Pl+Gen+Indef: vajzave
+
+    vajzë+N+Fem+Pl+Nom+Def: vajzat
+    vajzë+N+Fem+Pl+Acc+Def: vajzat
+    vajzë+N+Fem+Pl+Abl+Def: vajzave
+    vajzë+N+Fem+Pl+Dat+Def: vajzave
+    vajzë+N+Fem+Pl+Gen+Def: vajzave
+
   Noun - mal: # mi
     mal+N+Msc+Sg+Nom+Indef: mal
-    mal+N+Msc+Sg+Nom+Def: mali
     mal+N+Msc+Sg+Acc+Indef: mal
-    mal+N+Msc+Sg+Acc+Def: mali
     mal+N+Msc+Sg+Abl+Indef: malit
-    mal+N+Msc+Sg+Abl+Def: malit
-    mal+N+Msc+Sg+Gen+Indef: malit
-    mal+N+Msc+Sg+Gen+Def: malit
     mal+N+Msc+Sg+Dat+Indef: malit
+    mal+N+Msc+Sg+Gen+Indef: malit
+    mal+N+Msc+Sg+Nom+Def: mali
+    mal+N+Msc+Sg+Acc+Def: mali
+    mal+N+Msc+Sg+Abl+Def: malit
     mal+N+Msc+Sg+Dat+Def: malit
+    mal+N+Msc+Sg+Gen+Def: malit
 
     mal+N+Msc+Pl+Nom+Indef: male
-    mal+N+Msc+Pl+Nom+Def: malet
     mal+N+Msc+Pl+Acc+Indef: male
-    mal+N+Msc+Pl+Acc+Def: malet
     mal+N+Msc+Pl+Abl+Indef: maleve
-    mal+N+Msc+Pl+Abl+Def: maleve
-    mal+N+Msc+Pl+Gen+Indef: maleve
-    mal+N+Msc+Pl+Gen+Def: maleve
     mal+N+Msc+Pl+Dat+Indef: malevet
+    mal+N+Msc+Pl+Gen+Indef: maleve
+    mal+N+Msc+Pl+Nom+Def: malet
+    mal+N+Msc+Pl+Acc+Def: malet
+    mal+N+Msc+Pl+Abl+Def: maleve
     mal+N+Msc+Pl+Dat+Def: malevet
+    mal+N+Msc+Pl+Gen+Def: maleve

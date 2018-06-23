@@ -9,6 +9,9 @@ Alphabet
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
+%^Pen:0 	 !! penultimate vowel
+%^A2E:0	 !! fronting/shwa change
+
  %>:0 ;
 
 Sets
@@ -21,11 +24,9 @@ Rules
 "Deleting stem-final vowel in front of vowel suffixes"
  ë:0 <=> _ %>: Vow ;
 
-!!€ primus%>s
-!!€ primus00
+"fronting a to e"
+ a:e <=> _ Cns+ Vow %>: %^Pen: %^A2E: ;
+!! lahem+V+Ind+Prs+Sg1: __wash oneself__
+!!€ lahe%>%^Pen%^A2Em
+!!€ lehe%>00m
 
-!!€grís%>s
-!!€grís00
-
-!!$grís%>s
-!!$grís0s

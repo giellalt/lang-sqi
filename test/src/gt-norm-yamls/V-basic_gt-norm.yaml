@@ -1,0 +1,18 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Verb - lahem: # 
+    lahem+V+Ind+Prs+Sg1: lehem
+    lahem+V+Ind+Prs+Sg2: lahesh
+    lahem+V+Ind+Prs+Sg3: lahet
+    lahem+V+Ind+Prs+Pl1: lahem
+    lahem+V+Ind+Prs+Pl2: laheni
+    lahem+V+Ind+Prs+Pl3: lahen
+    lahem+V+Ind+Prs+Inf: lahem

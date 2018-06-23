@@ -3,6 +3,6 @@
 !! Verbs in UNDEFINED language are actions.
 
 LEXICON Verbs
-verb    Persons   ;
+lahem:lahe V_LAHEM "bathe, wash oneself" ;
 
 ! vim: set ft=xfst-lexc:

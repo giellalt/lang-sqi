@@ -1,16 +1,16 @@
 !! Verb inflection
 !  ---------------
-!! The UNDEFINED language verbs inflect in persons.
+!! The ALBANIAN language verbs inflect in persons.
 
-LEXICON Persons
-+V+1sg:en   #   ;
-+V+2sg:et   #   ;
-+V+3sg:e    #   ;
-+V+1pl:ien  #   ;
-+V+2pl:iet  #   ;
-+V+3pl:iet  #   ;
-+V+inf:0    #   ;
-#:0   Nouns   ;
+LEXICON V_LAHEM
++V+Ind+Prs+Sg1:%>%^Pen%^A2Em   #   ;
++V+Ind+Prs+Sg2:%>sh   #   ;
++V+Ind+Prs+Sg3:%>t    #   ;
++V+Ind+Prs+Pl1:%>m  #   ;
++V+Ind+Prs+Pl2:%>ni  #   ;
++V+Ind+Prs+Pl3:%>n  #   ;
++V+Ind+Prs+Inf:%>m    #   ;
+!#:0   Nouns   ;
 
 ! vim: set ft=xfst-lexc:
 

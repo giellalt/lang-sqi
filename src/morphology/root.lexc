@@ -116,6 +116,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! And following triggers to control variation
  {front} {back}
+%^Pen 	 !! penultimate vowel
+%^A2E	 !! fronting/shwa change
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following

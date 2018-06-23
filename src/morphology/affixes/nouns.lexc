@@ -4,25 +4,26 @@
 
 LEXICON mi
 +N+Msc+Sg+Nom+Indef: EndLex ;
-+N+Msc+Sg+Nom+Def:%>i EndLex ;
 +N+Msc+Sg+Acc+Indef: EndLex ;
-+N+Msc+Sg+Acc+Def:%>i EndLex ;
 +N+Msc+Sg+Abl+Indef:%>it EndLex ;
-+N+Msc+Sg+Abl+Def:%>it EndLex ;
 +N+Msc+Sg+Gen+Indef:%>it EndLex ;
-+N+Msc+Sg+Gen+Def:%>it EndLex ;
 +N+Msc+Sg+Dat+Indef:%>it EndLex ;
+
++N+Msc+Sg+Nom+Def:%>i EndLex ;
++N+Msc+Sg+Acc+Def:%>i EndLex ;
++N+Msc+Sg+Abl+Def:%>it EndLex ;
++N+Msc+Sg+Gen+Def:%>it EndLex ;
 +N+Msc+Sg+Dat+Def:%>it EndLex ;
 
 +N+Msc+Pl+Nom+Indef:%>e EndLex ;
-+N+Msc+Pl+Nom+Def:%>et EndLex ;
 +N+Msc+Pl+Acc+Indef:%>e EndLex ;
-+N+Msc+Pl+Acc+Def:%>et EndLex ;
 +N+Msc+Pl+Abl+Indef:%>eve EndLex ;
-+N+Msc+Pl+Abl+Def:%>eve EndLex ;
 +N+Msc+Pl+Gen+Indef:%>eve EndLex ;
-+N+Msc+Pl+Gen+Def:%>eve EndLex ;
 +N+Msc+Pl+Dat+Indef:%>evet EndLex ;
++N+Msc+Pl+Nom+Def:%>et EndLex ;
++N+Msc+Pl+Acc+Def:%>et EndLex ;
++N+Msc+Pl+Abl+Def:%>eve EndLex ;
++N+Msc+Pl+Gen+Def:%>eve EndLex ;
 +N+Msc+Pl+Dat+Def:%>evet EndLex ;
 
 
@@ -37,6 +38,29 @@ LEXICON f
 +N+Fem+Sg+Nom+Def:%>a EndLex ;
 +N+Fem+Pl+Nom+Indef:%>a EndLex ;
 +N+Fem+Pl+Nom+Def:%>at EndLex ;
+
++N+Fem+Sg+Acc+Indef: EndLex ;
++N+Fem+Sg+Abl+Indef:%>e EndLex ;
++N+Fem+Sg+Dat+Indef:%>e EndLex ;
++N+Fem+Sg+Gen+Indef:%>e EndLex ;
+
++N+Fem+Sg+Nom+Def:%>a EndLex ;
++N+Fem+Sg+Acc+Def:%>n EndLex ;
++N+Fem+Sg+Abl+Def:%>s EndLex ;
++N+Fem+Sg+Dat+Def:%>s EndLex ;
++N+Fem+Sg+Gen+Def:%>s EndLex ;
+
++N+Fem+Pl+Nom+Indef:%>a EndLex ;
++N+Fem+Pl+Acc+Indef:%>a EndLex ;
++N+Fem+Pl+Abl+Indef:%>ash EndLex ;
++N+Fem+Pl+Dat+Indef:%>ave EndLex ;
++N+Fem+Pl+Gen+Indef:%>ave EndLex ;
+
++N+Fem+Pl+Nom+Def:%>at EndLex ;
++N+Fem+Pl+Acc+Def:%>at EndLex ;
++N+Fem+Pl+Abl+Def:%>ave EndLex ;
++N+Fem+Pl+Gen+Def:%>ave EndLex ;
++N+Fem+Pl+Dat+Def:%>ave EndLex ;
 
 
 ! vim: set ft=xfst-lexc:
