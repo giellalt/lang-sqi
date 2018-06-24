@@ -9,7 +9,7 @@ LEXICON V_LAHEM
 +V+Ind+Prs+Pl1:%>m  #   ;
 +V+Ind+Prs+Pl2:%>ni  #   ;
 +V+Ind+Prs+Pl3:%>n  #   ;
-+V+Ind+Prs+Inf:%>m    #   ;
++V+Inf:%>m    #   ;
 !#:0   Nouns   ;
 
 ! vim: set ft=xfst-lexc:
