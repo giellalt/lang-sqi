@@ -83,7 +83,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 
 !! Semantics are classified with
- +Mal +Fem +Sur 
+ +Sem/Mal
+ +Sem/Fem
+ +Sem/Sur 
  +Plc 
  +Org
  +Obj
@@ -107,6 +109,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +V→N +V→V +V→A
  +Der/xxx
 
+%>
 
 !! Morphophonology
 !  ---------------
@@ -150,14 +153,14 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
+   Nouns       ;
+   Verbs       ;
+   Adjectives  ;
+   Pronouns    ;
+   Numerals    ;
+   Prefixes    ;
 
 LEXICON EndLex
-#;
+# ;
 
 ! vim: set ft=xfst-lexc:
