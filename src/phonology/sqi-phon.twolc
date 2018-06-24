@@ -22,11 +22,13 @@ Sets
 Rules
 
 "Deleting stem-final vowel in front of vowel suffixes"
- ë:0 <=> _ %>: Vow ;
+ ë:0 <=> _ %> Vow ;
 
 "fronting a to e"
- a:e <=> _ Cns+ Vow %>: %^Pen: %^A2E: ;
+ a:e <=> _ Cns+ Vow %> %^Pen: %^A2E: ;
+
 !! lahem+V+Ind+Prs+Sg1: __wash oneself__
-!!€ lahe%>%^Pen%^A2Em
-!!€ lehe%>00m
+
+!!€ lahe>^Pen^A2Em
+!!€ lehe>00m
 

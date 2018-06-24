@@ -3,7 +3,7 @@
 !! The ALBANIAN language verbs inflect in persons.
 
 LEXICON V_LAHEM
-+V+Ind+Prs+Sg1:%>%^Pen%^A2Em   #   ;
++V+Ind+Prs+Sg1:%>%^Pen%^A2Em   #  ;
 +V+Ind+Prs+Sg2:%>sh   #   ;
 +V+Ind+Prs+Sg3:%>t    #   ;
 +V+Ind+Prs+Pl1:%>m  #   ;
