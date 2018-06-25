@@ -9,10 +9,10 @@ Config:
 
 Tests:
   Verb - lahem: # 
+    lahem+V+Inf: lahem
     lahem+V+Ind+Prs+Sg1: lehem
     lahem+V+Ind+Prs+Sg2: lahesh
     lahem+V+Ind+Prs+Sg3: lahet
     lahem+V+Ind+Prs+Pl1: lahem
     lahem+V+Ind+Prs+Pl2: laheni
     lahem+V+Ind+Prs+Pl3: lahen
-    lahem+V+Ind+Prs+Inf: lahem
