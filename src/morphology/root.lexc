@@ -151,7 +151,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in Albanian language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    Nouns       ;
    Verbs       ;
@@ -159,6 +159,8 @@ LEXICON Root
    Pronouns    ;
    Numerals    ;
    Prefixes    ;
+    Punctuation ;
+    Symbols     ;
 
 LEXICON EndLex
 # ;
