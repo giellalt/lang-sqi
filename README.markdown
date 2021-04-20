@@ -1,6 +1,10 @@
 The Albanian morphology and tools
 ==========================================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/issues)
+[![Build Status](https://github.com/giellalt/lang-sqi/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://raw.githubusercontent.com/giellalt/lang-sqi/develop/LICENSE)
+
 This repository contains finite state source files for the Albanian language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
@@ -8,10 +12,6 @@ licence, also detailed in the
 [LICENCE](https://github.com/giellalt/lang-sqi/blob/develop/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/issues)
-[![Build Status](https://github.com/giellalt/lang-sqi/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://raw.githubusercontent.com/giellalt/lang-sqi/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-sqi)
 for the Albanian language by using the [Divvun Installer](http://divvun.no)
