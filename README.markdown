@@ -10,8 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/issues)
-[![Build Status](https://github.com/giellalt/lang-sqi/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-sqi)](https://raw.githubusercontent.com/giellalt/lang-sqi/develop/LICENSE)
+[![Build Status](https://github.com/giellalt/lang-sqi/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://raw.githubusercontent.com/giellalt/lang-sqi/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-sqi)
 for the Albanian language by using the [Divvun Installer](http://divvun.no)
