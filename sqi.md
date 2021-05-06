@@ -1,5 +1,36 @@
-Noun inflection
-The ALBANIAN language nouns inflect in number, case and definiteness.
+Nouns
+Nouns in Albanian
+
+
+Numerals
+Numerals in the Albanian language are numbers.
+
+
+Verbs
+Verbs in the Albanian language are actions.
+
+
+Prefixes
+Prefixes in the Albanian language are bound to beginning of other words.
+
+
+
+Adjectives
+Adjectives in the Albanian language describe things.
+
+
+Pronouns
+Pronouns in the Albanian language are references to things.
+
+
+=================================== !
+The Albanian morphophonological/twolc rules file !
+=================================== !
+
+
+
+penultimate vowel
+fronting/shwa change
 
 
 
@@ -7,34 +38,10 @@ The ALBANIAN language nouns inflect in number, case and definiteness.
 
 
 
+lahem+V+Ind+Prs+Sg1: **wash oneself**
 
-
-
-
-
-
-Proper noun inflection
-The Albanian language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Adjective inflection
-The Albanian language adjectives compare.
-
-
-
-Verb inflection
-The ALBANIAN language verbs inflect in persons.
-
-
+* *lahe>^Pen^A2Em*
+* *lehe>00m*
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Albanian LANGUAGE.
@@ -182,25 +189,43 @@ Verbs
 Verbs in UNDEFINED language are actions.
 
 
-=================================== !
-The Albanian morphophonological/twolc rules file !
-=================================== !
 
-
-
-penultimate vowel
-fronting/shwa change
+# Symbol affixes
 
 
 
 
 
+Noun inflection
+The ALBANIAN language nouns inflect in number, case and definiteness.
 
 
-lahem+V+Ind+Prs+Sg1: **wash oneself**
 
-* *lahe>^Pen^A2Em*
-* *lehe>00m*
+
+
+
+
+
+
+
+
+
+
+Proper noun inflection
+The Albanian language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Verb inflection
+The ALBANIAN language verbs inflect in persons.
+
+
+
+Adjective inflection
+The Albanian language adjectives compare.
+
+
 
 
 # Albanian morphological analyser                      !
@@ -289,29 +314,20 @@ The word forms in Albanian language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 
-Nouns
-Nouns in Albanian
-
-
-Prefixes
-Prefixes in the Albanian language are bound to beginning of other words.
 
 
 
-Pronouns
-Pronouns in the Albanian language are references to things.
+We describe here how abbreviations are in Albanian are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-Adjectives
-Adjectives in the Albanian language describe things.
-
-
-Verbs
-Verbs in the Albanian language are actions.
-
-
-Numerals
-Numerals in the Albanian language are numbers.
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -367,20 +383,4 @@ Numerals in the Albanian language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Albanian are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
