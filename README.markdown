@@ -3,13 +3,13 @@ The Albanian morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/issues)
 [![Build Status](https://github.com/giellalt/lang-sqi/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://raw.githubusercontent.com/giellalt/lang-sqi/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://raw.githubusercontent.com/giellalt/lang-sqi/main/LICENSE)
 
 This repository contains finite state source files for the Albanian language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-sqi/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-sqi/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -77,7 +77,7 @@ svn checkout https://github.com/giellalt/lang-sqi.git/trunk lang-sqi
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-sqi/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-sqi/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
