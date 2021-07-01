@@ -199,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -605,23 +605,103 @@ These were the set types.
 
 
 
-Verb inflection
-The ALBANIAN language verbs inflect in persons.
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-sqi/blob/main/../src/cg3/functions.cg3)</small>
+# Albanian morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Albanian LANGUAGE.
+
+
+ # Definitions for Multichar_Symbols
+
+## Analysis symbols
+The morphological analyses of wordforms for the Albanian
+language are presented in this system in terms of the following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+The parts-of-speech are:
+
+The parts of speech are further split up into:
 
 
 
-Proper noun inflection
+The Usage extents are marked using following tags:
+
+The nominals are inflected in the following Case and Number
+
+
+
+
+The comparative forms are:
+Numerals are classified under:
+Verb moods are:
+Verb personal forms are:
+Other verb forms are
+
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+Special symbols are classified with:
+The verbs are syntactically split according to transitivity:
+Special multiword units are analysed with:
+Non-dictionary words can be recognised with:
+
+Question and Focus particles:
+
+
+Semantics are classified with
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+
+Morphophonology
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+
+And following triggers to control variation
+penultimate vowel
+fronting/shwa change
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+ |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+ |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+ |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+ |  @P.CmpPref.FALSE@ | Block these words from making further compounds
+ |  @D.CmpLast.TRUE@ | Block such words from entering R
+ |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+ |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+ |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+ |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+ |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+The word forms in Albanian language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/root.lexc)</small>Proper noun inflection
 The Albanian language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 
 
-Adjective inflection
-The Albanian language adjectives compare.
-
-
-
-Noun inflection
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/affixes/propernouns.lexc)</small>Noun inflection
 The ALBANIAN language nouns inflect in number, case and definiteness.
 
 
@@ -636,14 +716,59 @@ The ALBANIAN language nouns inflect in number, case and definiteness.
 
 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/affixes/nouns.lexc)</small>
 # Symbol affixes
 
 
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
+The Albanian language adjectives compare.
 
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
+The ALBANIAN language verbs inflect in persons.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/affixes/verbs.lexc)</small>Pronouns
+Pronouns in the Albanian language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
+Prefixes in the Albanian language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/stems/prefixes.lexc)</small>Nouns
+Nouns in Albanian
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+Adjectives in the Albanian language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/stems/adjectives.lexc)</small>Verbs
+Verbs in the Albanian language are actions.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+Numerals in the Albanian language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/stems/numerals.lexc)</small>
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Albanian LANGUAGE.
 
 
@@ -789,7 +914,8 @@ Verbs
 Verbs in UNDEFINED language are actions.
 
 
-=================================== !
+* * *
+<small>This (part of) documentation was generated from [../src/fst/lexicon.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/lexicon.lexc)</small>=================================== !
 The Albanian morphophonological/twolc rules file !
 =================================== !
 
@@ -809,119 +935,8 @@ lahem+V+Ind+Prs+Sg1: **wash oneself**
 * *lahe>^Pen^A2Em*
 * *lehe>00m*
 
-Verbs
-Verbs in the Albanian language are actions.
-
-
-Pronouns
-Pronouns in the Albanian language are references to things.
-
-
-Numerals
-Numerals in the Albanian language are numbers.
-
-
-Adjectives
-Adjectives in the Albanian language describe things.
-
-
-Prefixes
-Prefixes in the Albanian language are bound to beginning of other words.
-
-
-
-Nouns
-Nouns in Albanian
-
-
-
-# Albanian morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Albanian LANGUAGE.
-
-
- # Definitions for Multichar_Symbols
-
-## Analysis symbols
-The morphological analyses of wordforms for the Albanian
-language are presented in this system in terms of the following symbols.
-(It is highly suggested to follow existing standards when adding new tags).
-
-The parts-of-speech are:
-
-The parts of speech are further split up into:
-
-
-
-The Usage extents are marked using following tags:
-
-The nominals are inflected in the following Case and Number
-
-
-
-
-The comparative forms are:
-Numerals are classified under:
-Verb moods are:
-Verb personal forms are:
-Other verb forms are
-
- * +Symbol = independent symbols in the text stream, like £, €, ©
-Special symbols are classified with:
-The verbs are syntactically split according to transitivity:
-Special multiword units are analysed with:
-Non-dictionary words can be recognised with:
-
-Question and Focus particles:
-
-
-Semantics are classified with
-
-
-Derivations are classified under the morphophonetic form of the suffix, the
-source and target part-of-speech.
-
-
-Morphophonology
-To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
-
-And following triggers to control variation
-penultimate vowel
-fronting/shwa change
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-The word forms in Albanian language start from the lexeme roots of basic
-word classes, or optionally from prefixes:
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/phonology.twolc)</small>
 
 
 
@@ -975,7 +990,8 @@ word classes, or optionally from prefixes:
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Albanian are read out, e.g.
@@ -991,8 +1007,9 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
-
-      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+[ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
 
@@ -1402,3 +1419,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-sqi/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
