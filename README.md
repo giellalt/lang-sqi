@@ -3,7 +3,7 @@ The Albanian morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/issues)
 [![Build Status](https://github.com/giellalt/lang-sqi/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://raw.githubusercontent.com/giellalt/lang-sqi/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/blob/main/LICENSE)
 
 This repository contains finite state source files for the Albanian language,
 for building morphological analysers, proofing tools
