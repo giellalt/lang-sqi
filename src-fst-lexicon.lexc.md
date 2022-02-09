@@ -1,7 +1,6 @@
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Albanian LANGUAGE.
 
-
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
@@ -13,13 +12,9 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 
-
-
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
-
-
 
 The comparative forms are:
 Numerals are classified under:
@@ -34,13 +29,10 @@ Non-dictionary words can be recognised with:
 
 Question and Focus particles:
 
-
 Semantics are classified with
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
-
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -82,67 +74,37 @@ word classes, or optionally from prefixes:
 Adjective inflection
 The UNDEFINED language adjectives compare.
 
-
-
 Noun inflection
 The UNDEFINED language nouns inflect in cases.
-
-
-
-
-
 
 Proper noun inflection
 The UNDEFINED language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
-
-
 Verb inflection
 The UNDEFINED language verbs inflect in persons.
-
-
 
 Adjectives
 Adjectives in UNDEFINED language describe things.
 
-
 Nouns
 Nouns in UNDEFINED language are things.
-
 
 Numerals
 Numerals in UNDEFINED language are numbers.
 
-
 Prefixes
 Prefixes in UNDEFINED language are bound to beginning of other words.
-
-
 
 Pronouns
 Pronouns in UNDEFINED language are references to things.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Verbs
 Verbs in UNDEFINED language are actions.
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/lexicon.lexc](http://github.com/giellalt/lang-sqi/blob/main/../src/fst/lexicon.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/lexicon.lexc](https://github.com/giellalt/lang-sqi/blob/main/src/fst/lexicon.lexc)</small>
+
+---
+
