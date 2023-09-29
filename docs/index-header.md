@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sqi)](https://github.com/giellalt/lang-sqi/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-sqi/main/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-sqi/main/badge.svg)](https://github.com/giellalt/lang-sqi/actions)
 
 This page documents the work on the **Albanian language model**. 
 
