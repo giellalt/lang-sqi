@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>sq</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Albanian</title>
+    <title>Albanian</title>
     <description>This is an fst-based speller for Albanian. It is based
     on the normative subset of the morphological analyser for Albanian.
     The source code can be found at:
