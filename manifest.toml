@@ -1,6 +1,3 @@
-spellername = "Albanian"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "856B1B2F-CE1B-4743-BC7F-261923CE9F3D", kind = "nsis" },
     { value = "042AB625-F33D-4FAA-A503-A358FB484C27", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Albanian"
+version = "0.1.1"
+
+[package.grammar]
+name = "Albanian"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Albanian"
+version = "0.1.0"
